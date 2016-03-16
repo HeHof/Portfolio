@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Splendr</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><span class="logo">Splendr</span></a>
+
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="boards.html">Produkt-Board</a></li>
+                        <li><a href="produkte_hinzufuegen.html">Board oder Produkt hinzufügen</a></li>
+                        <li><a href="benutzerprofil.html">Benutzerprofil</a></li>
+                        <li><a href="registrierung.html">Login/Registrierung</a></li>
+                    </ul>
+
+                    <form class="navbar-form navbar-right" role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Suche">
+                        </div>
+                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-repeat"></span></button>
+                    </form>
+                </div><!--/.navbar-collapse -->
+            </div>
+        </div>
+
+         <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <h3>Board/Produkt hinzufügen</h3>
+                    <hr>
+                    <form id="product" method="post" class="form" role="form">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-6 form-group">
+                                <input class="form-control" id="boardname" name=" boardname" placeholder="Board" type="text" required autofocus />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-md-6 form-group">
+                                <input class="form-control" id="productname" name="produktname" placeholder="Produkt" type="text" required />
+                            </div>
+                            <div class="col-xs-6 col-md-6 form-group input-group">
+                                <input class="form-control" id="price" name="preis" placeholder="Preis" type="text" required />
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-euro"></span></span>
+
+                            </div>
+                            <div class="col-xs-6 col-md-6 form-group">
+                                <input class="form-control" id="imglink" name="bildlink" placeholder="Link zu einem Bild des Produkts" type="text" required />
+                            </div>
+                            <div class="col-xs-6 col-md-6 form-group">
+                                <input class="form-control" id="productlink" name="produktlink" placeholder="Link zur Verkaufsseite des Produkts" type="text" required />
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-12 form-group">
+                                <button class="btn btn-primary pull-right" type="submit">Erstellen</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    <!--Content-->
+
+      <hr>
+
+      <!--Footer-->
+      <div class="container">
+          <footer>
+              <section class="footer-bottom">
+                  <div class="container" >
+                      <div class="row">
+                          <div class="span12">
+                              <div class="law">
+                                  <a href="impressum.html">Impressum</a> | <a href="kontakt.html">Kontakt</a> 
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+          </footer>
+      </div>
+  </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
