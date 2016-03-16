@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+	  <title>JSTest Regex</title>
+	</head>
+    <body>
+        <script>     
+
+        var Text= "Langer Text mit viel drinn......";
+        var Muster = /drinn/;
+        var muster2 = /nicht/;
+        if(Muster.test(Text)) {
+        document.write(Muster);
+        }
+        if (muster2.test(Text) == false){
+            document.write("\n"+"Habe ' " +muster2+ " ' nicht finden können");
+        }
+        var feld = new Array(10);
+        feld[0] = "hendrik";
+        feld[1] = 100;
+        document.write(feld.length);
+        document.write(feld[0]);
+
+         test = "hallo" + "welt";
+        document.write(test);
+
+        function tester(a,b){
+            document.write("<br> TESTFUNKTION    <br>");
+            var i = a;
+            var c = a+b;
+            document.write(c);
+        }
+        tester(1,2)
+
+        </script>
+
+      
+    </body>
