@@ -1,0 +1,198 @@
+<style type="text/css">
+<!--
+
+#kopfzeile {
+	margin-top: 4em;
+	margin-bottom: 1em;
+	text-align: center;	
+
+}
+
+#fusszeile {
+	margin-top: 5em;
+	margin-bottom: 2em;
+	text-align: center;
+	
+	border-radius: 10px;
+
+
+}
+
+#navigation {
+   
+	margin-bottom: 0.1em;
+	margin-top: 0.2em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+  padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+  text-align: center;
+  font-family: "Lato";
+
+}
+ul#navigation li {
+
+    display: inline;
+    margin: 0.4em; 
+    padding: 10;
+}
+
+
+ul#navigation a, ul#navigation span {
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: black; 
+}
+ul#navigation a:hover, ul#navigation span, .link {
+    color: grey; 
+    font-weight: bold;
+}
+#inhalt {
+
+  	background-color:#C2EBFF;
+
+  	padding-left: 10em;
+  	padding-right: 10em;
+  	padding-top: 2em;
+  	padding-bottom: 2em;
+
+  	margin-top: 10px;
+  	margin-left: 10em;
+  	margin-right: 10em; 
+
+  	border: 12px solid black;
+
+  	border-top-left-radius: 200px;
+  	border-top-right-radius: 200px;
+  	border-bottom-right-radius: 200px;
+  	border-bottom-left-radius: 200px;
+
+  	/*border-left-color: orange;*/
+
+}
+body {
+  	background-image: linear-gradient(#C2EBFF 0%, #FFFFFF 100%);
+   	background-repeat: no-repeat;
+   	font-family: 'Lato';
+}
+/*Schriften*/
+
+h1 {
+	font-size: 3.4em;
+	font-family: 'Pacifico';
+	letter-spacing: 5px; 
+}
+
+h2 {
+	font-size: 2.3em;
+	font-family: 'Pacifico';
+}
+
+h3 {
+	font-size: 1.4em;
+	font-family: 'Pacifico';
+}
+h4 {
+  font-size: 1.4em;
+  font-family: 'Lato';
+}
+
+h6 {
+	font-size: x-small;
+	font-family: 'Lato';
+}
+p {
+	text-align: justify;
+
+}
+.frage{
+	font-style: bold;
+	font-size: 16px;
+	font-family: 'Lato';
+	color: black;
+}
+
+.antwort{
+	font-style: italic;
+	font-size: 14px;
+	font-family: 'Lato';
+	color: grey;
+
+
+}
+
+/*Auswahlmenü und Textboxen*/
+label {
+
+    cursor: pointer;
+    font-weight: bold;
+    width: 10em;
+    display: inline-block;
+
+}
+
+input, select, textarea {
+    background-color: lightblue;
+    border: 2px dotted lightgrey;
+    font: 14px Helvetica, Arial, FreeSans, sans-serif;
+
+    padding: 0.7em 0.8em;
+    width: 15em;
+}
+
+textarea {
+    width: 15em;
+    overflow: auto;
+}
+
+#dauerselect{
+	margin-bottom: 3em;
+}
+
+/*Tabelle*/
+
+table,td,th{
+	border-collapse:collapse;
+	border: 1px dotted lightblue; 
+    text-align:left; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width: 40em;
+    font-weight: bold;
+    font-family: "Lato";
+}
+
+
+tr:not(:first-child):hover {
+    background-color: lightblue;
+}
+
+th,td{
+	text-align: left;
+	padding: 10px;
+}
+
+/*Bilder*/
+img#bild_klein{
+	float: right;
+  width:70px;
+  height:70px;
+  border-radius:6px;
+}
+
+img#bild_gross{
+
+	float: right;
+	width: 130px;
+	heigth: 130px;
+	border-radius:12px;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+
+
+-->
+</style>
+
